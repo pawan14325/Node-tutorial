@@ -1,0 +1,5 @@
+{
+    "javascript.inlayHints.parameterTypes.enabled": true,
+    "typescript.inlayHints.parameterTypes.enabled": true,
+    "editor.wordBasedSuggestions": "allDocuments"
+}
