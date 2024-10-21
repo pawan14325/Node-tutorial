@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Profile page</title>
+</head>
+
+<body>
+    <%-include('common/header')%>
+
+<h1>Name <%= students_data[0].name%></h1>    
+<h2>Email <%= students_data[0].surname%></h2>    
+<h3>City <%= students_data[0].profile%></h3>    
+<ul>
+    <% students_data[0].skills.forEach((items)=>{%>
+<li>
+    <%= items%>
+</li>
+   <% })%>
+</ul>
+</body>
+</html>
